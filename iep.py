@@ -8,7 +8,7 @@ client = OpenAI()
 import streamlit.components.v1 as components
 
 # Set up OpenAI API key
-# openai.api_key = st.secrets["OPENAI_API_KEY"]
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def extract_text_from_pdf(file):
     # Read the PDF file
